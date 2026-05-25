@@ -7,6 +7,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: rgb(214, 213, 213);
 }
 
 
@@ -113,17 +114,41 @@ html, body{
 }
 
 #page1{
-    height: 90vh;
+    height: 90%;
     width: 100%;
-    background-color: goldenrod;
+}
+
+.products{
+    height: 93%;
+    width: 100%;
+}
+
+.line1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.bar{
+    flex:1;
+    width: 50px;
+    height: 440px;
+    background-color: white;
+    margin: 8px 8px;
+    padding:5px;
 }
 
 #navbar{
     height: 7%;
     width: 100%;
     background-color: #232f3e;
+}
+
+#container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 .items{
@@ -137,22 +162,66 @@ html, body{
     border: 1px solid white;
 }
 
+.deal1 img{
+    object-fit: cover;
+    flex: 1;
+    margin: 5px;
+    height: 80px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.deal2 img{
+    flex: 1;
+    object-fit: cover;
+    margin: 5px;
+    height: 100px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.bar p{
+    margin-left: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.bar p:hover{
+    color: rgb(84, 41, 254);
+}
+
+.bar h2{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deal1{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.deal2{
+    display: flex;
+    margin-bottom: 50px;
+}
+
 #page2{
-    height: 90vh;
+    height: 90%;
     width: 100%;
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 }
 
 #page3{
-    height: 90vh;
+    height: 90%;
     width: 100%;
-    background-color: rgb(236, 25, 95);
+    /* background-color: rgb(236, 25, 95); */
 }
 
 #page4{
-    height: 90vh;
+    height: 90%;
     width: 100%;
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
 }
 
 #page5{
