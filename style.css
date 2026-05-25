@@ -20,6 +20,11 @@ html, body{
 
 #logo{
     padding: 20px;
+    cursor: pointer;
+}
+
+#logo:hover{
+    border: 1px solid white;
 }
 
 #header img{
@@ -33,10 +38,73 @@ html, body{
 }
 
 #location{
-    margin: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    width: 320px;
+    width: 195px;
+    cursor: pointer;
+}
+
+#location:hover{
+    border:1px solid white;
+}
+
+#searchbar{
+    background-color: grey;
+    height: 70%;
+    width: 500px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+#language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    /* padding-right: 10px; */
+    cursor: pointer;
+}
+
+#language:hover{
+    border: 1px solid white;
+}
+
+#language img{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+#signin{
+    /* margin-right: 0; */
+    padding: 10px;
+    /* padding: 5px; */
+    cursor: pointer;
+}
+
+#signin:hover{
+    border: 1px solid white;
+}
+
+#orders{
+    margin: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#orders:hover{
+    border: 1px solid white;
+}
+
+#cart{
+    margin: 3px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#cart:hover{
+    border:1px solid white;
 }
 
 #fakeheader{
@@ -50,8 +118,32 @@ html, body{
     background-color: goldenrod;
 }
 
+#navbar{
+    height: 7%;
+    width: 100%;
+    background-color: #232f3e;
+}
+
 #page2{
     height: 90vh;
     width: 100%;
     background-color: darkcyan;
+}
+
+#page3{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(236, 25, 95);
+}
+
+#page4{
+    height: 90vh;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+#page5{
+    height: 90vh;
+    width: 100%;
+    background-color: cornflowerblue;
 }
