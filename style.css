@@ -122,6 +122,19 @@ html, body{
     height: 7%;
     width: 100%;
     background-color: #232f3e;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+
+.items:hover{
+    border: 1px solid white;
 }
 
 #page2{
